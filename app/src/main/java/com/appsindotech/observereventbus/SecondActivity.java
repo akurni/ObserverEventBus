@@ -38,6 +38,4 @@ public class SecondActivity extends AppCompatActivity {
         // Handle the event
         textView2.setText(event.getMessage());
     }
-
-
 }

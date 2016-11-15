@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.appsindotech.observereventbus.fragment.SecondFragment">
+    tools:context="com.appsindotech.observereventbus.fragment.SecondFragment"
+    android:background="@color/accent_material_dark">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -13,5 +14,14 @@
         android:text="Waiting for Action"
         android:id="@+id/textView"
         android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textSize="24dp"
+        android:textStyle="bold" />
 
 </FrameLayout>

@@ -28,6 +28,8 @@ public class SecondFragment extends Fragment {
     private static final String ARG_PARAM2 = "param2";
     @Bind(R.id.textView)
     TextView textView;
+    @Bind(R.id.textView3)
+    TextView textView3;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -95,7 +97,7 @@ public class SecondFragment extends Fragment {
 
     public void onEventMainThread(MessageEvent event) {
 
-        textView.setText(event.getMessage());
+        textView3.setText(event.getMessage());
     }
 
     @Override

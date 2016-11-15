@@ -92,6 +92,7 @@ public class FirstFragment extends Fragment {
     public void sendClick() {
         // Post the event
         EventBus.getDefault().post(new ClickEvent());
+        EventBus.getDefault().post(new MessageEvent("hi there"));
     }
 
     @OnClick(R.id.button2)
